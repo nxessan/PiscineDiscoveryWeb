@@ -5,16 +5,17 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="background.css">
-	<title>Cellule3.0</title>
+	<title>3.0</title>
 	<script>
 		let isChanged = false;
-		function changeBg() {
-			document.body.style.backgroundColor = isChanged ? '#FFC15E' : '#465775';
+		function changeBg() { //funcion de js para cambiar el color del fondo cuando se hace click en el botón
+			document.body.style.backgroundColor = isChanged ? '#2b6633' : '#400311';
 			isChanged = !isChanged;
 		}
 	</script>
 </head>
 <body>
-	<button onclick="changeBg()">Click ME</button>
+	<!-- Botón que cuando se hace click en él llama a la funcion de js -->
+	<button onclick="changeBg()">Click me!</button> 
 </body>
 </html>
